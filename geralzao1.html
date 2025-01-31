@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="target.ico" type="image/x-icon">
+    <link rel="stylesheet" href="geralzao1.css">
     <!-- favicon fica em cima do tittle -->
     <title>Módulo 1</title>
 </head>
@@ -31,6 +32,7 @@
         <li>Handbreak software para conversão de vídeos para seu site hospedado</li>
         <li>Olhe o consumo de banda do site, vídeos, imagens, áudios, etc...</li>
         <li>Vimeo e YouTube: hospedagem de vídeos</li>
+        <li>CSS pode ter arquivos extra</li>
     </ul>
     <h2>Atalhos do teclado</h2>
     <ul>
@@ -43,53 +45,58 @@
         <li><strong>CTRL + D</strong>: seleciona a palavra</li>
         <li><strong>CTRL + SHIFT + L</strong>: seleciona todas as palavras iguais</li>
         <li><strong>CTRL + SHIFT + K</strong>: deleta a linha</li>
+        <li>CTRL + Click: cria um arquivo com o link que você digitou</li>
     </ul>
     <h2>Marcas</h2>
     <ul>
+        <h3>Texto e formatação</h3>
         <li><strong>&lt;h1&gt;</strong> - título nível 1</li>
         <li><strong>&lt;p&gt;</strong> - parágrafo</li>
-        <li><strong>&lt;hr&gt;</strong> - linha horizontal</li>
-        <li><strong>&lt;br&gt;</strong> - quebra de linha</li>
-        <li><strong>&lt;img&gt;</strong> - imagens para o site</li>
-        <li><strong>&lt;link:favicon&gt;</strong> - altera o favicon</li>
-        <li>
-            < ol type="" start="">
-                </ol>: lista ordenada
-        </li>
-        <li>
-            < ul type="disc/circle/square">: lista não ordenada
-        </li>
+        <li> ol type="" start="": lista ordenada </li>
+        <li> ul type="disc/circle/square">: lista não ordenada</li>
         <li>li: list item (não precisa sempre fechar)</li>
         <li>dt: lista termo</li>
         <li>dd: lista descrição</li>
-        <li>
-            < a href="" target="_blank/_self" rel="external/prev/next/<abbr title=" para patrocinios/não tem seu aval">
-                nofollow</abbr>"/dofollow download="" type="application/pdf">: âncora para hypertexto (links)
-        </li>
         <li><strong>&lt;address&gt;</strong> - endereço</li>
-        <li><strong>&lt;strong&gt;</strong> &rightarrow; &lt;<abbr title="bold">b</abbr>&gt; - palavra forte</li>
-        <li><strong>&lt;<abbr title="empashis">em</abbr>&gt;</strong> &rightarrow; <strong>&lt;<abbr
-                    title="italic">i</abbr>&gt;</strong> - palavra ênfase</li>
-        <li><strong>&lt;mark&gt;</strong> - marcar texto</li>
-        <li><strong>&lt;style&gt;</strong> - cria um estilo CSS para o documento</li>
-        <li><strong>&lt;small&gt;</strong> (based) e <strong>&lt;big&gt;</strong> (obsoleto)</li>
-        <li><strong>&lt;<abbr title="grifado">del</abbr>&gt;</strong> e <strong>&lt;<abbr
-                    title="sublinhado">ins</abbr>&gt;</strong> - texto deletado e texto adicionado &rightarrow;
-            <strong>&lt;u&gt;</strong>
-        </li>
-        <li><strong>&lt;sup&gt;</strong> - sobrescrito<sup>123</sup></li>
-        <li><strong>&lt;sub&gt;</strong> - subscrito<sub>123</sub></li>
-        <li><strong>&lt;code&gt;</strong> - linhas de código</li>
-        <li><strong>&lt;<abbr title="preformat">pre</abbr>&gt;</strong> - deixa a formatação</li>
         <li><abbr title="quote"><strong>&lt;q&gt;</strong></abbr>: citação</li>
         <li><strong>&lt;blockquote cite=""&gt;</strong> - citação mais longa</li>
         <li><strong>&lt;abbr&gt;</strong> - Abreviações</li>
         <li><strong>&lt;bdo&gt;</strong> - texto invertido</li>
+        <li><strong>&lt;strong&gt;</strong> &rightarrow; &lt;<abbr title="bold">b</abbr>&gt; - palavra forte</li>
+        <li><strong>&lt;<abbr title="empashis">em</abbr>&gt;</strong> &rightarrow; <strong>&lt;<abbr title="italic">i</abbr>&gt;</strong> - palavra ênfase</li>
+        <li><strong>&lt;mark&gt;</strong> - marcar texto</li>
+        <li><strong>&lt;style&gt;</strong> - cria um estilo CSS para o documento</li>
+        <li><strong>&lt;small&gt;</strong> (based) e <strong>&lt;big&gt;</strong> (obsoleto)</li>
+        <li><strong>&lt;<abbr title="grifado">del</abbr>&gt;</strong> e <strong>&lt;<abbr title="sublinhado">ins</abbr>&gt;</strong> - texto deletado e texto adicionado &rightarrow; <strong>&lt;u&gt;</strong> </li>
+        <li><strong>&lt;sup&gt;</strong> - sobrescrito<sup>123</sup></li>
+        <li><strong>&lt;sub&gt;</strong> - subscrito<sub>123</sub></li>
+        <li><strong>&lt;code&gt;</strong> - linhas de código</li>
+        <li><strong>&lt;<abbr title="preformat">pre</abbr>&gt;</strong> - deixa a formatação</li>
+
+        <h3>Elementos</h3>
+        <li><strong>&lt;hr&gt;</strong> - linha horizontal</li>
+        <li><strong>&lt;br&gt;</strong> - quebra de linha</li>
+        <li><strong>&lt;link:favicon&gt;</strong> - altera o favicon</li>
+        <li> link:css - linka o CSS</li>
+        <li> a href="" target="_blank/_self" rel="external/prev/next/<abbr title=" para patrocinios/não tem seu aval">nofollow</abbr>"/dofollow download="" type="application/pdf">: âncora para hypertexto (links)</li>
+
+        <h3>Midia</h3>
+        <li><strong>&lt;img&gt;</strong> - imagens para o site</li>
         <li>picture - permite que img tenha vários source</li>
         <li>source:media:type - source das imagens com diferente tamanho dependendo do monitor</li>
         <li>audio:autoplay:controls:loop - coloca audio no site, pode ser usado com source (src="")</li>
         <li>video:width:controls:poster - video, pode ser usado source (src)</li>
     </ul>
+
+    <h2>Estilos CSS</h2>
+    <p>Pode ser inline, interno e externo</p>
+    <li>background-color: muda a cor de fundo</li>
+    <li>font-family: muda a fonte</li>
+    <li>text-align: justify </li>
+    <li>font-size</li>
+    <li>@charset "UTF-8"; - regra</li>
+
+
     <h2>Comandos do Git(Hub)</h2>
     <ul>
         <li>git status</li>
