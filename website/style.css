@@ -1,14 +1,26 @@
 @charset "utf-8";
 
 body{
-background-color: #e6ffff;
+background-image: linear-gradient(to bottom, #e6edff, #FFF8E6);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 line-height: 25px;
 margin: 20px 15%;
 }
+main{
+    width: 900px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 20px 5px #0000002a;
+}
 h1{
-    background-color: #bbffff;
+    background-color: #00000020;
 }
 h2,h3,h4{
-    background-color: #cdffff;
+    background-color: #00000020;
+}
+h1, h2, h3, h4{
+    padding: 5px;
+    border-radius: 5px;
 }
