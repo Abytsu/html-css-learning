@@ -21,6 +21,8 @@
                 <li><a href="https://color.adobe.com/" target="_blank" rel="external">Adobe Color - Paleta de cores</a></li>
                 <li><a href="https://paletton.com/" target="_blank" rel="external">Palleton - Preview de site com cor</a></li>
                 <li><a href="https://coolors.co/generate">Coolors - Gerador automático de paletas de cores</a></li>
+                <li><a href="https://fonts.google.com/">Fontes do Google</a></li>
+                <li><a href="https://www.dafont.com/pt/">Fontes daFont</a></li>
             </ul>
         <hr>
         <h2> Atalhos do teclado</h2>
@@ -37,7 +39,7 @@
             <li>CTRL + Click: cria um arquivo com o link que você digitou</li>
         </ul>
         <h2>Tags</h2>
-        <h3>Texto e formatação</h3>
+        <h3>Texto e formatação</h3> <!-- Texto e formatação-->
         <ul>
             <li>h1 - título nível 1</li>
             <li>p - parágrafo</li>
@@ -77,7 +79,7 @@
             <li>box-shadow - sombra para a caixa</li>
             <li>text-shadow - sombra para o texto</li>
         </ul>
-        <h3>Elementos</h3>
+        <h3>Elementos</h3> <!-- Elementos-->
         <ul>
             <li>hr - linha horizontal</li>
             <li>br - quebra de linha</li>
@@ -92,8 +94,10 @@
                 <li>type = "application/pdf"</li>
             </ul>
             <li>main - conteúdo principal do site</li>
+            <li>span - trecho de um conteúdo, geralmente utilizado para seletores em CSS</li>
+            <li>div - um trecho do html que ocupa de uma ponta a outra da tela por padrão</li>
         </ul>
-        <h3>Mídia</h3>
+        <h3>Mídia</h3> <!-- Mídia-->
         <ul>
             <li>img - imagem</li>
             <ul>
@@ -123,14 +127,39 @@
         <ul>
             <li>*{} - configuração global CSS</li>
             <li>@charset "UTF-8"; - regra</li>
-            <h3>Textos</h3>
+            <li>@import url - importar fonte</li>
+            <li>@font-face - importar fonte otf-ttf</li>
+            <ul>
+                <li>font-family: 'nome da fonte;</li>
+                <li>src: ulr('love larry.otf') format ('opentype'), ulr('love larry.ttf') format('truetype');</li>
+            </ul>
+            <li class="importante">Seletores específicos</li> 
+            <ul>
+                <li>id# - único: h1#principal (h1 opcional)</li>
+                <li>class. - vários elementos: h1.principal (h1 não põe - prof) (pode ter mais de uma classe)</li>
+                <li>pseudo-classe: (estado do elemento) - h1:hover/active/visited </li>
+                <li>pseudo-elemento:: - (adiciona um elemento) h1::after/before - mexe no conteúdo periférico do elemento</li>
+            </ul>
+            <li> (children) tag 1 > tag 2 (só aplica se a tag 2 estiver dentro da tag 1 no html) - aplica para a tag 2</li>
+            <h3>Textos</h3> <!-- Textos-->
             <li>font-family: muda a fonte</li>
-            <li>text-align: justify/center</li>
+            <ul><li>sans-serif, serif, monospace, cursive</li></ul>
+            <li>text-align: justify/center/right/left</li>
+            <li>text-indent - identação do texto</li>
             <li>font-size</li>
-            <h3>Cores</h3>
+            <li>font-weight - peso da fonte (bold)</li>
+            <li>font-style - estilo da fonte (itálico)</li>
+            <li>text-decoration - estilo da fonte (sublinhado)</li>
+            <li>font - shorthand (resume os comandos)</li>
+            <ul>
+                <li>font-style > font-weight > font-size > font-family</li>
+                <li>exemplo::: font: italic bolder 3em 'Work Sans', sans-serif;</li>
+
+            </ul>
+            <h3>Cores</h3> <!-- Cores-->
             <li>background-color: muda a cor de fundo</li>
             <li>color - cor da fonte</li>
-            <h3>Formatação</h3>
+            <h3>Formatação</h3> <!-- Formatação-->
             <li>background-image</li>
             <ul>
                 <li>linear-gradient() - gradiente para o fundo do site</li>
@@ -139,6 +168,11 @@
             <li>background-attachment:</li>
             <ul><li>fixed</li></ul>
             <li>height</li>
+            <li>border - shorthand</li>
+            <li>vertical-align - alinhar verticalmente elementos</li>
+            <li class="importante">display: inline-block/none - como o CSS vai exibir o conteúdo</li>
+            <h3>Elementos</h3>
+            <li>content - adiciona conteúdo HTML na tag</li>
         </ul>
         <h2>Vale lembrar (caracteres especiais)</h2>
         <ul>
