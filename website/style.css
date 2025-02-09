@@ -31,7 +31,20 @@ h4{
 li:hover{
     font-size: 1.1em;
     font-weight: 500;
+    transition: 0.2s;
 }
 li.importante::after, li.importante::before{
     content: ' \1F4E3';
+}
+a > img:hover{
+    width: 170px;
+    transition: 0.3s;
+}
+a >img{
+    transition: 0.5s;
+}
+#links_importantes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
